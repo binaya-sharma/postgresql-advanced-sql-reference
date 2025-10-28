@@ -55,7 +55,7 @@ SELECT 'It''s a good day';
 ### Option 2 — Use escape string
 
 ```sql
-SELECT E'It\\'s a good day';
+SELECT E'It\'s a good day';
 ```
 
 Both return:
