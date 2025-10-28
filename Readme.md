@@ -52,6 +52,10 @@ It covers essential SQL concepts used in ETL pipelines, data modeling, and analy
     Describes how EXPLAIN and EXPLAIN ANALYZE work for query optimization.  
     Discusses how indexing improves performance by reducing full table scans.
 
+12. **Data Types**
+
+13. **Escape Sequence**
+
 ---
 
 ## Best Practices
@@ -73,9 +77,14 @@ FROM → WHERE → GROUP BY → HAVING → WINDOW → SELECT → DISTINCT → OR
 ## Repository Structure
 postgresql-advanced-sql-reference/
 
-├── PostgreSQL_Advanced_SQL_Practice.sql   # Complete SQL examples
+```
+📁 Project Structure
 
-├── Postgres_Advanced_SQL_Reference.md
+├── PostgreSQL_Advanced_SQL_Practice.sql     # Complete SQL examples
+├── Postgres_Advanced_SQL_Reference.md       # Refer this first
+├── PostgreSQL_Data_Types_Reference.md       # Refer this second
+├── PostgreSQL_Escape_Sequence_Reference.md  # Refer this third
+└── README.md                                # Description and reference
+```
 
-└── README.md                              # Description and reference
 
